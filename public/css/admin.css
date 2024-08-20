@@ -1,0 +1,72 @@
+/* admin.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dishes-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#dishes-container {
+    flex: 2;
+}
+
+#update-delete-section {
+    flex: 1;
+}
+
+#update-dish,
+#delete-dish {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#update-dish h2,
+#delete-dish h2 {
+    margin-top: 0;
+}
